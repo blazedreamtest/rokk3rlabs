@@ -1,0 +1,56 @@
+[
+    {
+        "category": "Chain Store Age",
+        "created": "Feb 22, 2016",
+        "title": "Billabong taps NetSuite to power omnichannel strategy",
+        "newsImg": "app/assets/images/news.png",
+        "newsDescription": "Marianne WilsonNetSuite Inc., a provider of cloud-based financials, ERP and and omnichannel software suites, said that boardsports retailer Billabong International Ltd. selected NetSuite...",
+        "likes": "132",
+        "watched": false
+    },
+    {
+        "category": "Bussiness Wire",
+        "created": "Feb 18, 2016",
+        "title": "New Study Shows One Critical Industry Lagging Behind in Software Security",
+        "newsImg": "app/assets/images/news.png",
+        "newsDescription": "Marianne WilsonNetSuite Inc., a provider of cloud-based financials, ERP and and omnichannel software suites, said that boardsports retailer Billabong International Ltd. selected NetSuite...",
+        "likes": "132",
+        "watched": false
+    },
+    {
+        "category": "Bussiness Wire",
+        "created": "Feb 13, 2016",
+        "title": "AlphaGo and the Declining Advantage of Big Companies",
+        "newsImg": "app/assets/images/news.png",
+        "newsDescription": "Panelists at CII's spring conference discuss governance implications of shift in US firms’ approach to capital allocation When it comes to uses of cash, investors are slightly schizophrenic about...",
+        "likes": "132",
+        "watched": false
+    },
+    {
+        "category": "Chain Store Age",
+        "created": "Feb 13, 2016",
+        "title": "Journelle, Alton Lane streamline process with NetSuite platform",
+        "newsImg": "app/assets/images/news.png",
+        "newsDescription": "Marianne WilsonNetSuite Inc., a provider of cloud-based financials, ERP and and omnichannel software suites, said that boardsports retailer Billabong Internatio",
+        "likes": "132",
+        "watched": true
+    },
+    {
+        "category": "Internet Retailer",
+        "created": "Feb 14, 2016",
+        "title": "NetSuite rolls out a new e-procurement system for B2B companies",
+        "newsImg": "app/assets/images/news.png",
+        "newsDescription": "Katherine BoccaccioNetSuite Inc. announced that two fashion and apparel retailers — Journelle, a seller of high-end lingerie and loungewear, and Alton Lane, a maker of men’s custom-tailored...",
+        "likes": "123",
+        "watched": false
+    },
+    {
+        "category": "The Wall Street Journal",
+        "created": "Feb 13, 2016",
+        "title": "NetSuite to Buy Email Marketing Company for $200 Million",
+        "newsImg": "app/assets/images/news.png",
+        "newsDescription": "It's been 25 years since Professor Jeffrey Sonnenfeld's landmark book The Hero's Farewell vividly documented the challenges and failures of CEO succession planning at large publicly traded...",
+        "likes": "122",
+        "watched": false
+    }
+]

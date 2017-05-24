@@ -1,0 +1,49 @@
+<section class="route_section">
+    <div class="container">
+        <div class="speed-zone">
+            <div class="border-box clearfix">
+                <h3 class="box-title">Speed Zones</h3>
+                <div class="speedzone-icons">
+                    <span class="sprite maximize-icon" title="Maximize"></span>
+                    <span class="sprite info-icon" title="Info"></span>
+                </div>
+
+                <div id="lineChart">
+                    <chart [options]="graphOption"></chart>
+                </div>
+
+            </div>
+        </div>
+        <div class="row clearfix">
+            <div class="countby-zone">
+                <div class="border-box clearfix">
+                    <h3 class="box-title">Count by zones</h3>
+                    <div id="barCharts">
+                        <canvas baseChart
+                            [datasets]="barChartData"
+                            [labels]="barChartLabels"
+                            [options]="PathsbarChartOptions"
+                            [colors]="PathsbarChartColors"
+                            [legend]="barChartLegend"
+                            [chartType]="barChartType"
+                        ></canvas>
+                    </div>
+                </div>
+            </div>
+            <div class="speed-average">
+                <div class="border-box clearfix">
+                    <h3 class="box-title">Speed Average</h3>
+                    <div id="circleChart">
+                        <canvas baseChart
+                        [data]="ChartData"
+                        [labels]="ChartLabels"
+                        [options]="ChartOptions"
+                        [chartType]="ChartType"
+                        ></canvas>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

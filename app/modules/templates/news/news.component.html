@@ -1,0 +1,25 @@
+<section class="route_section news_section clearfix">
+    <masonry [options]="layoutOption">
+        <masonry-brick class="newslist" *ngFor="let news of newsDetail">
+            <div>
+                <div *ngIf="watched" class="status">
+                    <span>Watched</span>
+                </div>
+                <div class="news-category clearfix">
+                    <h3><span>{{news.created}}</span> <label>{{news.created}}</label></h3>
+                </div>
+                <h2 class="news-title"><a href="javascript:void(0)" title="{{news.title}}">{{news.title}}</a></h2>
+
+                <img *ngIf="news.newsImg != ''" [src]="news.newsImg" alt="News" />
+
+                <p>{{news.newsDescription}}</p>
+                <div class="news-info clearfix">
+                    <a href="#" title="News Brief" class="sprite newsbrief-icon"></a>
+                    <a href="#" title="Like" class="like-icon">{{news.likes}}</a>
+                    <a href="#" title="Replay" class="sprite reply-icon"></a>
+                </div>
+            </div>
+        </masonry-brick>
+    </masonry>
+
+</section>
